@@ -1,0 +1,4 @@
+﻿Name,BlockAdd,HealthDamageAdd,DamageAtEndOfTurn,StackLossAtEndOfTurn
+Poison,,,{stackCount},Math.Ceiling({stackCount} / 2.0)
+Dexterity,{stackCount},,,0
+Strength,,{stackCount},,0

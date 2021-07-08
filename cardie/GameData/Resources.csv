@@ -1,0 +1,4 @@
+﻿Name,Color,BlockedBy,HasMaximum,SingleTargetDescription,GainDescription
+
+Mana,Cyan,,True,,Gain {} mana.
+Block,Gray,,False,Reduce block by {}.,Gain {} block.

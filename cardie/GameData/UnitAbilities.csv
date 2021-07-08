@@ -1,0 +1,3 @@
+﻿Name,Chance,ResourceGain,GainBuffs,SingleTargetDamage,CastBuffs
+Fungi Beast,3,,,4 health,
+Fungi Beast,1,,1xStrength,,

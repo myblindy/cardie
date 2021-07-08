@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+    <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
+    <RootNamespace>Cardie</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="GameData\Buffs.csv" />
+    <None Remove="GameData\UnitAbilities.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="GameData\Buffs.csv" />
+    <AdditionalFiles Include="GameData\Cards.csv" />
+    <AdditionalFiles Include="GameData\Resources.csv" />
+    <AdditionalFiles Include="GameData\UnitAbilities.csv" />
+    <AdditionalFiles Include="GameData\Units.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\cardie.sourcegen\cardie.sourcegen.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Units\" />
+  </ItemGroup>
+
+  <Import Project="..\cardie.shared\cardie.shared.projitems" Label="Shared" />
+
+</Project>

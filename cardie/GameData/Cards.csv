@@ -1,0 +1,7 @@
+﻿Name,BaseCost,ResourceGain,SingleTargetDamage,CastBuffs,GainBuffs
+Fire Blast,1 mana,,3 health,,
+Life Bolt,1 mana 3 health,,8 health,,
+Block,1 mana,8 block,,,
+Healing Touch,1 mana,4 health,,,
+Poisoned Strike,1 mana,,1 health,3xPoison,
+Nimble,1 mana,,,,1xDexterity
